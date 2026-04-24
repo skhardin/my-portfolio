@@ -6,7 +6,7 @@ export default function Projects() {
       <div className="bg-white shadow-lg px-15 py-15">
         <h1 className="text-4xl font-bold">Selected Projects</h1>
       </div>
-      <div className="flex-1 grid grid-cols-3 gap-8 mt-6 px-10 py-10">
+      <div className="flex-1 grid grid-rows-3 md:grid-cols-3 gap-8 mt-6 px-10 py-10">
         <ProjectCard
           title="Project"
           description="description."
