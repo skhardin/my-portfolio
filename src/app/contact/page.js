@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <div id="contact" className="min-h-screen flex flex-col bg-gray-300">
+        <div id="contact" className="min-h-screen flex flex-col">
             <div className="bg-white shadow-lg px-15 py-15">
                 <h1 className="text-4xl font-bold">Contact Me</h1>
             </div>

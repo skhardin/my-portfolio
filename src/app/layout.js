@@ -23,9 +23,16 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-screen flex flex-col">
+        <div className="relative">
+        {/* Background layer */}
+        <div className="absolute top-0 left-0 w-full h-full -z-10 bg-[url('/tree4-r.jpg')] bg-cover bg-top bg-no-repeat " />
+
         <Navbar />
-        {children}</body>
+        {children}
+        </div>
+        </body>
+
     </html>
   );
 }

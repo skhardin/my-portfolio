@@ -2,7 +2,7 @@ import Typewriter from "@/components/Typewriter";
 
 export default function About() {
   return (
-    <div id="about" className="bg-gray-300 min-h-screen">
+    <div id="about" className="min-h-screen">
       <div className="bg-white shadow-lg px-15 py-15">
         <h1 className="text-4xl font-bold">About Me</h1>
       </div>
